@@ -173,7 +173,7 @@ ENTRYPOINT flaskapp=/opt/source-code/app.py flask run
   
 #### <span style="color:green">**Compose file example**</span>
 ```yaml
-version:3
+version: "3.8"
 services:
   vote:
     build: ./vote 
