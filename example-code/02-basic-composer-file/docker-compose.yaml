@@ -10,6 +10,4 @@ services:
     image: ubuntu
     container_name: front-end-container
     command: bash
-    stdin_open: true
-    tty: true
-
+   
